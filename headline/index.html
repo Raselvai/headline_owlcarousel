@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>HTML CSS Headline</title>
+
+    <!-- favicon -->
+    <!-- <link href="img/favicon.png" type="image/png" rel="icon"> -->
+
+    <!-- all css here -->
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+    <div class="headline_wrapper">
+        <div class="text_center">
+            <p>Must-Have Features!</p>
+            <h2>Features that you'll ever need.</h2>
+        </div>
+        <div class="owl-carousel slider_one">
+            <a class="tag_btn" href="#">🚀 User-Friendly</a>
+            <a class="tag_btn" href="#">🤩 User-Friendly</a>
+            <a class="tag_btn" href="#">🤟🏻 User-Friendly</a>
+            <a class="tag_btn" href="#">👏🏻 User-Friendly</a>
+            <a class="tag_btn" href="#">🚀 User-Friendly</a>
+            <a class="tag_btn" href="#">🤩 User-Friendly</a>
+            <a class="tag_btn" href="#">🤟🏻 User-Friendly</a>
+            <a class="tag_btn" href="#">👏🏻 User-Friendly</a>
+        </div>
+        <div class="owl-carousel slider_two">
+            <a class="tag_btn" href="#">🚀 User-Friendly</a>
+            <a class="tag_btn" href="#">🤩 User-Friendly</a>
+            <a class="tag_btn" href="#">🤟🏻 User-Friendly</a>
+            <a class="tag_btn" href="#">👏🏻 User-Friendly</a>
+            <a class="tag_btn" href="#">🚀 User-Friendly</a>
+            <a class="tag_btn" href="#">🤩 User-Friendly</a>
+            <a class="tag_btn" href="#">🤟🏻 User-Friendly</a>
+            <a class="tag_btn" href="#">👏🏻 User-Friendly</a>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        
+        //07. tag slider start
+        function tag_carouselInit() {
+            $('.owl-carousel.slider_one').owlCarousel({
+                dots: false,
+                loop: true,
+                margin: 12,
+                stagePadding: 0,
+                autoWidth:true,
+                autoplay: true,
+                autoplayTimeout: 2500,
+                smartSpeed:3000,
+                autoplayHoverPause: false,
+                // responsive: {
+                //     0: {
+                //         items: 1
+                //     },
+                //     768: {
+                //         items: 2,
+                //     },
+                //     992: {
+                //         items: 3
+                //     }
+                // }
+            });
+        }
+        tag_carouselInit();
+
+        //07. tag slider start
+        function tag2_carouselInit() {
+            $('.owl-carousel.slider_two').owlCarousel({
+                dots: false,
+                loop: true,
+                margin: 12,
+                stagePadding: 0,
+                autoWidth:true,
+                autoplay: true,
+                autoplayTimeout: 2500,
+                rtl:true,
+                smartSpeed:3000,
+                autoplayHoverPause: false,
+                // responsive: {
+                //     0: {
+                //         items: 1
+                //     },
+                //     768: {
+                //         items: 2,
+                //     },
+                //     992: {
+                //         items: 3
+                //     }
+                // }
+            });
+        }
+        tag2_carouselInit();
+
+    </script>
+</body>
+</html>
